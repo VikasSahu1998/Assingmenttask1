@@ -1,0 +1,29 @@
+{
+  "emplist": [
+    {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "id": 1
+    },
+    {
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "id": 2
+    },
+    {
+      "name": "Alice Johnson",
+      "email": "alicejohnson@example.com",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

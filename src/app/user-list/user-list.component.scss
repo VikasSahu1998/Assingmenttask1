@@ -1,0 +1,32 @@
+// table
+
+table {
+    width: 100%;
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td,
+th {
+    width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    table {
+        width: 70%;
+    }
+
+    .mat-mdc-form-field {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    td,
+    th {
+        width: 25%;
+    }
+}
