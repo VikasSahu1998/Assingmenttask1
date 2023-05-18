@@ -1,16 +1,16 @@
 <section>
-    <div class="container">
+    <div class="container  ">
         <div class="row">
             <div class="col-10">
                 <h1 mat-dialog-title>ADD FROM
                 </h1>
             </div>
             <div class="col-2 mt-4">
-                <mat-icon [mat-dialog-close]="true">highlight_off</mat-icon>
+                <mat-icon [mat-dialog-close]="true"  data-bs-dismiss="modal" aria-label="Close" color="warn">highlight_off</mat-icon>
             </div>
         </div>
 
-        <div mat-dialog-content>
+        <div mat-dialog-content class="modal-body">
             <form [formGroup]="AddDetailsForm" novalidate class="d-flex-center">
                 <div class="example-container">
 
